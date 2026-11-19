@@ -8,7 +8,8 @@ Written for Godot 4.3, 100% GDScript, no external dependencies.
 
 ## Install
 
-1. In the editor open the **AssetLib** tab, search for `Save Vault Lite`, and install — or copy `addons/save_settings_lite/` into your project's `res://addons/` folder.
+1. Grab the addon folder `addons/save_settings_lite/` (download this repo as a ZIP, or `git clone` it) and copy it into your project's `res://addons/` folder.
+   > Also submitted to the **Godot Asset Library** as `Save Vault Lite` — it is currently in review. Once accepted you will also be able to install it straight from the editor's **AssetLib** tab.
 2. **Project → Project Settings → Plugins** and enable **Save & Settings Lite**. This registers the `SaveSettingsLite` autoload.
 
 ## Usage
@@ -47,6 +48,8 @@ SaveSettingsLite.load_settings()
 | Keyboard, mouse and gamepad remapping UI | — | Yes |
 
 Full kit (HTML5 demo you can play in the browser): **https://bzy375544.itch.io/godot4-save-settings-vault**
+
+This Lite addon on itch.io (one-click download, no signup): **https://bzy375544.itch.io/godot4-save-settings-vault-lite**
 
 ## License
 
